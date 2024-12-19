@@ -197,8 +197,8 @@ public class PCBuild extends JFrame {
         JPanel summaryPanel = new JPanel(new GridLayout(1, 2, 10, 0)); // 1행 2열로 구성
 
         // 총액 및 총전력량 라벨 생성
-        totalPriceLabel = new JLabel("Total Price: $2120", SwingConstants.CENTER); //총액 계산 미구현
-        totalPowerLabel = new JLabel("Total Power: 750W", SwingConstants.CENTER);  //파워 계산 미구현
+        totalPriceLabel = new JLabel("Total Price: 0", SwingConstants.CENTER);
+        totalPowerLabel = new JLabel("Total Power: 0", SwingConstants.CENTER);
 
         totalPriceLabel.setFont(new Font("Malgun Gothic", Font.BOLD, 18));
         totalPowerLabel.setFont(new Font("Malgun Gothic", Font.BOLD, 18));
@@ -260,7 +260,7 @@ public class PCBuild extends JFrame {
 
     //라벨 setter
     public void setTotalPriceLabel(double price) {
-        totalPriceLabel.setText("Total Price: $" + String.format("%.2f", price));
+        totalPriceLabel.setText("Total Price: ₩" + String.format("%.2f", price));
     }
 
     public void setTotalPowerLabel(String text) {
@@ -276,7 +276,7 @@ public class PCBuild extends JFrame {
     }
 
     public void setCpuPrice(double price) {
-        cpuPrice.setText("$" + String.format("%.2f", price));
+        cpuPrice.setText("₩" + String.format("%.2f", price));
     }
 
     public void setCpuCoolerName(String name) {
@@ -288,7 +288,7 @@ public class PCBuild extends JFrame {
     }
 
     public void setCpuCoolerPrice(double price) {
-        cpuCoolerPrice.setText("$" + String.format("%.2f", price));
+        cpuCoolerPrice.setText("₩" + String.format("%.2f", price));
     }
 
     public void setMotherBoardName(String name) {
@@ -300,7 +300,7 @@ public class PCBuild extends JFrame {
     }
 
     public void setMotherBoardPrice(double price) {
-        motherBoardPrice.setText("$" + String.format("%.2f", price));
+        motherBoardPrice.setText("₩" + String.format("%.2f", price));
     }
 
     public void setMemoryName(String name) {
@@ -312,7 +312,7 @@ public class PCBuild extends JFrame {
     }
 
     public void setMemoryPrice(double price) {
-        memoryPrice.setText("$" + String.format("%.2f", price));
+        memoryPrice.setText("₩" + String.format("%.2f", price));
     }
 
     public void setStorageName(String name) {
@@ -324,7 +324,7 @@ public class PCBuild extends JFrame {
     }
 
     public void setStoragePrice(double price) {
-        storagePrice.setText("$" + String.format("%.2f", price));
+        storagePrice.setText("₩" + String.format("%.2f", price));
     }
 
     public void setGpuName(String name) {
@@ -336,7 +336,7 @@ public class PCBuild extends JFrame {
     }
 
     public void setGpuPrice(double price) {
-        gpuPrice.setText("$" + String.format("%.2f", price));
+        gpuPrice.setText("₩" + String.format("%.2f", price));
     }
 
     public void setPowerSupplyName(String name) {
@@ -348,7 +348,7 @@ public class PCBuild extends JFrame {
     }
 
     public void setPowerSupplyPrice(double price) {
-        powerSupplyPrice.setText("$" + String.format("%.2f", price));
+        powerSupplyPrice.setText("₩" + String.format("%.2f", price));
     }
 }
 

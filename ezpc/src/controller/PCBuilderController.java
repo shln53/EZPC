@@ -1,8 +1,8 @@
 package controller;
 
-import view.ComponentList;
-import view.MainMenu;
-import view.PCBuild;
+import view.ComponentListView;
+import view.MainMenuView;
+import view.PCBuilderView;
 import model.Computer;
 
 import javax.swing.*;
@@ -15,11 +15,11 @@ import java.io.ObjectOutputStream;
 import java.io.ObjectInputStream;
 import java.io.FileInputStream;
 
-public class PCBuildController {
-    private PCBuild view;
+public class PCBuilderController {
+    private PCBuilderView view;
     private Computer computer;
 
-    public PCBuildController(PCBuild view, Computer computer) {
+    public PCBuilderController(PCBuilderView view, Computer computer) {
         this.view = view;
         this.computer = computer;
 
@@ -29,7 +29,7 @@ public class PCBuildController {
         view.getCpuSelectButton().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                ComponentList componentList = new ComponentList(computer, PCBuildController.this,"CPU","ComPonentData/CPU");
+                ComponentListView componentList = new ComponentListView(computer, PCBuilderController.this,"CPU","ComPonentData/CPU");
                 componentList.setVisible(true);  // ComponentList 창을 보이게 설정
             }
         });
@@ -37,7 +37,7 @@ public class PCBuildController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //cpu쿨러 리스트
-                ComponentList componentList = new ComponentList(computer, PCBuildController.this,"CPUCooler","ComPonentData/CPU Cooler");
+                ComponentListView componentList = new ComponentListView(computer, PCBuilderController.this,"CPUCooler","ComPonentData/CPU Cooler");
                 componentList.setVisible(true);  // ComponentList 창을 보이게 설정
             }
         });
@@ -45,7 +45,7 @@ public class PCBuildController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //마더보드 리스트
-                ComponentList componentList = new ComponentList(computer, PCBuildController.this,"Motherboard","ComPonentData/MotherBoard");
+                ComponentListView componentList = new ComponentListView(computer, PCBuilderController.this,"Motherboard","ComPonentData/MotherBoard");
                 componentList.setVisible(true);  // ComponentList 창을 보이게 설정
             }
         });
@@ -53,7 +53,7 @@ public class PCBuildController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //메모리 리스트
-                ComponentList componentList = new ComponentList(computer, PCBuildController.this,"Memory","ComPonentData/Memory");
+                ComponentListView componentList = new ComponentListView(computer, PCBuilderController.this,"Memory","ComPonentData/Memory");
                 componentList.setVisible(true);  // ComponentList 창을 보이게 설정
             }
         });
@@ -61,7 +61,7 @@ public class PCBuildController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //저장소 리스트
-                ComponentList componentList = new ComponentList(computer, PCBuildController.this,"Storage","ComPonentData/Storage");
+                ComponentListView componentList = new ComponentListView(computer, PCBuilderController.this,"Storage","ComPonentData/Storage");
                 componentList.setVisible(true);  // ComponentList 창을 보이게 설정
             }
         });
@@ -69,7 +69,7 @@ public class PCBuildController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //그래픽카드 리스트
-                ComponentList componentList = new ComponentList(computer, PCBuildController.this,"GPU","ComPonentData/GPU");
+                ComponentListView componentList = new ComponentListView(computer, PCBuilderController.this,"GPU","ComPonentData/GPU");
                 componentList.setVisible(true);  // ComponentList 창을 보이게 설정
             }
         });
@@ -77,7 +77,7 @@ public class PCBuildController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //파워서플라이 리스트
-                ComponentList componentList = new ComponentList(computer, PCBuildController.this,"PowerSupply","ComPonentData/Power Supply");
+                ComponentListView componentList = new ComponentListView(computer, PCBuilderController.this,"PowerSupply","ComPonentData/Power Supply");
                 componentList.setVisible(true);  // ComponentList 창을 보이게 설정
             }
         });
@@ -113,7 +113,7 @@ public class PCBuildController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // 메인 메뉴로 돌아가기
-                MainMenu mainMenu = new MainMenu();
+                MainMenuView mainMenu = new MainMenuView();
                 new MainMenuController(mainMenu);
                 mainMenu.setVisible(true);
                 view.dispose(); // 현재 창 닫기

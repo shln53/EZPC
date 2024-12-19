@@ -1,11 +1,11 @@
 import controller.MainMenuController;
-import view.MainMenu;
+import view.MainMenuView;
 
 public class Main {
     public static void main(String[] args) {
         // 시작 화면 호출
         javax.swing.SwingUtilities.invokeLater(() -> {
-            MainMenu mainMenu = new MainMenu();
+            MainMenuView mainMenu = new MainMenuView();
             new MainMenuController(mainMenu);
             mainMenu.setVisible(true);
         });

@@ -1,13 +1,13 @@
 package controller;
-import view.ManagementMenu;
-import view.PartsManagement;
+import view.ManagementView;
+import view.PartsManagementView;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class PartsManagementController {
-    private PartsManagement view;
+    private PartsManagementView view;
 
-    public PartsManagementController(PartsManagement view) {
+    public PartsManagementController(PartsManagementView view) {
         this.view = view;
 
         // 부품 선택 버튼 이벤트 처리
@@ -62,7 +62,7 @@ public class PartsManagementController {
         view.getBackButton().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                ManagementMenu managementMenu = new ManagementMenu();
+                ManagementView managementMenu = new ManagementView();
                 new ManagementMenuController(managementMenu);
                 managementMenu.setVisible(true);
                 view.dispose(); // 현재 창 닫기

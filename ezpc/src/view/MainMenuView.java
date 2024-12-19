@@ -3,11 +3,11 @@ package view;
 import javax.swing.*;
 import java.awt.*;
 
-public class MainMenu extends JFrame {
+public class MainMenuView extends JFrame {
     private JButton pcBuildButton;
     private JButton managementButton;
 
-    public MainMenu() {
+    public MainMenuView() {
         // 통합 폰트
         String font = "맑은 고딕";
 

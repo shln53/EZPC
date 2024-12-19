@@ -3,12 +3,12 @@ package view;
 import javax.swing.*;
 import java.awt.*;
 
-public class ManagementMenu extends JFrame {
+public class ManagementView extends JFrame {
     private JButton partsManagementButton;
     private JButton gameSpecManagementButton;
     private JButton backButton;
 
-    public ManagementMenu() {
+    public ManagementView() {
         // 통합 폰트
         String font = "맑은 고딕";
 

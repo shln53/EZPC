@@ -1,6 +1,6 @@
 package view;
 
-import controller.PCBuildController;
+import controller.PCBuilderController;
 import model.Computer;
 import model.CPU;
 import model.CPUCooler;
@@ -16,15 +16,15 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ComponentList extends JFrame {
+public class ComponentListView extends JFrame {
     private JList<String> componentList;
     private DefaultListModel<String> listModel;
     private List<Object> componentObjects;
     private Computer computer;
     private String componentType;
-    private PCBuildController controller;
+    private PCBuilderController controller;
 
-    public ComponentList(Computer computer, PCBuildController controller , String componentType, String directory) {
+    public ComponentListView(Computer computer, PCBuilderController controller , String componentType, String directory) {
         this.computer = computer;
         this.componentType = componentType;
         this.controller = controller;

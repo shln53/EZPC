@@ -3,7 +3,7 @@ package view;
 import javax.swing.*;
 import java.awt.*;
 
-public class PCBuild extends JFrame {
+public class PCBuilderView extends JFrame {
     private JPanel panel;
     private JLabel totalPriceLabel;
     private JLabel totalPowerLabel;
@@ -40,7 +40,7 @@ public class PCBuild extends JFrame {
     private JButton backButton;
 
 
-    public PCBuild() {
+    public PCBuilderView() {
         // 통합 폰트
         String font = "맑은 고딕";
 

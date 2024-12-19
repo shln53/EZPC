@@ -3,7 +3,7 @@ package view;
 import javax.swing.*;
 import java.awt.*;
 
-public class PartsManagement extends JFrame {
+public class PartsManagementView extends JFrame {
     private JButton cpuButton;
     private JButton cpuCoolerButton;
     private JButton gpuButton;
@@ -13,7 +13,7 @@ public class PartsManagement extends JFrame {
     private JButton storageButton;
     private JButton backButton;
 
-    public PartsManagement() {
+    public PartsManagementView() {
         setTitle("Parts Management");
         setSize(1280, 720);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -1,9 +1,9 @@
 
-
-java:S4165"bRemove this useless assignment; "size" already holds the assigned value along all execution paths.(°şˆ8©œÚ¾2
 …
 java:S4165"cRemove this useless assignment; "speed" already holds the assigned value along all execution paths.(èâ‰êüÿÿÿÿ8©œÚ¾2
-Q
-java:S1656"/Remove or correct this useless self-assignment.(èâ‰êüÿÿÿÿ8­œÚ¾2
+
+java:S4165"bRemove this useless assignment; "size" already holds the assigned value along all execution paths.(°şˆ8©œÚ¾2
 L
 java:S1656"/Remove or correct this useless self-assignment.(°şˆ8­œÚ¾2
+Q
+java:S1656"/Remove or correct this useless self-assignment.(èâ‰êüÿÿÿÿ8­œÚ¾2

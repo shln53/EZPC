@@ -1,0 +1,34 @@
+
+T
+java:S1948"2Make "componentObjects" transient or serializable.(ÊõÙ„ùÿÿÿÿ8‚æÔ†¾2
+G	java:S1066"+Replace this use of System.out by a logger.(şÛˆ‰8…æÔ†¾2
+L	java:S106D"+Replace this use of System.out by a logger.( ã“ùÿÿÿÿ8‡æÔ†¾2
+F	java:S106S"+Replace this use of System.out by a logger.(ÿ±â=8ŠæÔ†¾2
+b
+java:S6201Z"@Replace this instanceof check and cast with 'instanceof CPU cpu'(Ó×ã‰şÿÿÿÿ8‹æÔ†¾2
+k
+java:S6201_"IReplace this instanceof check and cast with 'instanceof CPUCooler cooler'(ğçƒûÿÿÿÿ8‹æÔ†¾2
+]
+java:S6201d"@Replace this instanceof check and cast with 'instanceof GPU gpu'(Ù¸í«8ŒæÔ†¾2
+h
+java:S6201i"FReplace this instanceof check and cast with 'instanceof Memory memory'(æ¼ò“üÿÿÿÿ8ŒæÔ†¾2
+r
+java:S6201n"PReplace this instanceof check and cast with 'instanceof Motherboard motherboard'(à…¯üÿÿÿÿ8ŒæÔ†¾2
+m
+java:S6201s"PReplace this instanceof check and cast with 'instanceof PowerSupply powerSupply'(ÿ‘°ú8æÔ†¾2
+j
+java:S6201w"HReplace this instanceof check and cast with 'instanceof Storage storage'(áâ›¼ùÿÿÿÿ8æÔ†¾2
+c
+java:S6201‚"@Replace this instanceof check and cast with 'instanceof CPU cpu'(¤ì÷¥ıÿÿÿÿ8æÔ†¾2
+j
+java:S6201„"LReplace this instanceof check and cast with 'instanceof CPUCooler cpucooler'(ñõ…8æÔ†¾2
+n
+java:S6201†"PReplace this instanceof check and cast with 'instanceof Motherboard motherboard'(ìç‚˜8æÔ†¾2
+i
+java:S6201ˆ"FReplace this instanceof check and cast with 'instanceof Memory memory'(ÀÛÆÚşÿÿÿÿ8æÔ†¾2
+k
+java:S6201Š"HReplace this instanceof check and cast with 'instanceof Storage storage'(«ø“»ûÿÿÿÿ8æÔ†¾2
+^
+java:S6201Œ"@Replace this instanceof check and cast with 'instanceof GPU gpu'(É™Õ8æÔ†¾2
+s
+java:S6201"PReplace this instanceof check and cast with 'instanceof PowerSupply powersupply'(´éò¿ıÿÿÿÿ8æÔ†¾2

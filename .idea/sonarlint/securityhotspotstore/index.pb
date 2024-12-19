@@ -1,32 +1,6 @@
 
-A
-ezpc/src/GPU.java,a\7\a7cd444745bfcbd9f1f5d074b7edb83a677b4eb3
-A
-ezpc/src/CPU.java,a\2\a278977c268b3517f13d4f240a5f38215b4f8391
-F
-ezpc/src/MainMenu.java,9\c\9c8465b6477fd0a7e00d9b3494ef28e2b4519bd7
-J
-ezpc/src/ComponetList.java,a\1\a1bbb56ff278831f95cda7e621c1680f8a694954
 B
 ezpc/src/Main.java,3\7\37df0ef3b5d3ebe64be9ec14c232f9ae80b0af9e
-E
-ezpc/src/Storage.java,4\8\48155e0b208eed1c42f1100e31106d0801267a39
-I
-ezpc/src/PowerSupply.java,a\f\afcb69762cebab6c4426534f1aba872e4ef55e67
-E
-ezpc/src/PCBuild.java,e\2\e2fbe145c30e5edfab44a54e679ce3505b1d63c5
-M
-ezpc/src/PartsManagement.java,1\5\15a92ad6f652434b9ece79a041ff5f73fa248549
-I
-ezpc/src/Motherboard.java,d\9\d9436da6a3fec0d382aeb9198e6b3c9e2c81a193
-D
-ezpc/src/Memory.java,2\a\2af7e65b919bd40cbcc9e86ac55eb3041bf172d1
-P
- ezpc/src/GameSpecManagement.java,b\b\bb06cfdf81f46e7d2ab269367e9a748c76dfc494
-G
-ezpc/src/CPUCooler.java,0\9\0932ac55fdeb22077d64e3ae1549752ef86116da
-F
-ezpc/src/Computer.java,7\1\716ae566b717d9249b033ccc08d41e3c3896a173
 S
 #ezpc/src/component/PCComponent.java,a\f\afae34b7ee990e174a03df75f368f05188f29132
 K
@@ -57,3 +31,33 @@ P
  ezpc/src/ui/PartsManagement.java,8\5\8576ece31011af84b2de561b4bd218cdd84f0cae
 H
 ezpc/src/ui/PCBuild.java,d\2\d2a6bb212e61627da65e8a5fa7935ad981f62611
+O
+ezpc/src/view/ComponetList.java,f\e\fe069e9ae6b4d11d228ea845180a70435e362c4e
+R
+"ezpc/src/view/PartsManagement.java,2\7\27e02d7e12e698077e127579989ca9325af7f5ce
+K
+ezpc/src/view/MainMenu.java,a\6\a6f82aaec84dcd54d1f7f432e3e62548b27fc13a
+U
+%ezpc/src/view/GameSpecManagement.java,e\7\e7bac0fc57a7a53f23b0d3a8f4ce39a43d152ccd
+M
+ezpc/src/view/Management.java,d\8\d88130e7e7b4c447f01c2c0ed52de0c78e690dce
+J
+ezpc/src/view/PCBuild.java,4\b\4ba0e724c7fb0b2c0c19f4e635d8791b2e54fd9d
+L
+ezpc/src/model/Computer.java,f\5\f5bb0ba71628a2a0714617277827acc0e4cae477
+G
+ezpc/src/model/CPU.java,4\5\457ce2dd328a23a8c399c524fa00ae77343a5b1d
+M
+ezpc/src/model/CPUCooler.java,c\8\c85f6c428cc0c14a800ce65f1534c5c7e5e73160
+G
+ezpc/src/model/GPU.java,f\1\f1c32c0c82e4b6ffb2d22ecec22f6014ce99b29f
+J
+ezpc/src/model/Memory.java,8\a\8ad492f9483c92c7ee53964bfc037da840b52754
+O
+ezpc/src/model/Motherboard.java,6\4\643b9c6511d560c02967a6b25d337a01958b5a9c
+O
+ezpc/src/model/PCComponent.java,d\5\d5814b734d4f1c201f1cd1ac7c9b6d46649db35b
+O
+ezpc/src/model/PowerSupply.java,2\8\289f4d231ae3c4419ac14bd0075944a0583af264
+K
+ezpc/src/model/Storage.java,7\4\74545db7b80a6585011b1f58527d37bc8b9654ad

@@ -1,5 +1,5 @@
 
-€
-java:S1450	"^Remove the "totalPowerLabel" field and declare it as a local variable in the relevant methods.(š®¨„üÿÿÿÿ8ê§÷½2
-€
-java:S1450"^Remove the "totalPriceLabel" field and declare it as a local variable in the relevant methods.(àçÃ†ıÿÿÿÿ8ê§÷½2
+d
+java:S1192q"GDefine a constant instead of duplicating this literal "Select" 8 times.(Ï„ú¡8Ìˆ†ú½2
+a
+java:S1226’"CIntroduce a new variable instead of reusing the parameter "button".(È«Ù²8Ïˆ†ú½2

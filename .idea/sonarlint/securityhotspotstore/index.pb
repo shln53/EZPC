@@ -35,3 +35,13 @@ A
 ezpc/src/ezpc.iml,0\c\0cf0424e075c1d6d10755f3e2014111f2859424b
 I
 ezpc/src/PCComponent.java,e\f\ef1b5a614598b373f43c1cecaa2ff47feb9a9874
+E
+ezpc/src/Storage.java,4\8\48155e0b208eed1c42f1100e31106d0801267a39
+I
+ezpc/src/PowerSupply.java,a\f\afcb69762cebab6c4426534f1aba872e4ef55e67
+E
+ezpc/src/PCBuild.java,e\2\e2fbe145c30e5edfab44a54e679ce3505b1d63c5
+M
+ezpc/src/PartsManagement.java,1\5\15a92ad6f652434b9ece79a041ff5f73fa248549
+I
+ezpc/src/Motherboard.java,d\9\d9436da6a3fec0d382aeb9198e6b3c9e2c81a193

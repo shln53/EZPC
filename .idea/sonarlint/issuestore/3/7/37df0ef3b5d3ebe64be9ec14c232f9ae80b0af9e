@@ -1,0 +1,7 @@
+
+0
+java:S1220""Move this file to a named package.
+A
+java:S1602",Remove useless curly braces around statement(»¾›
+O
+java:S1612":Replace this lambda with method reference 'MainMenu::new'.(»¾›

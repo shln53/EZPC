@@ -1,11 +1,14 @@
 package view;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
 
 public class MainMenu extends JFrame {
+    private JButton pcBuildButton;
+    private JButton managementButton;
+
     public MainMenu() {
-        //통합 폰트
+        // 통합 폰트
         String font = "맑은 고딕";
 
         // JFrame 설정
@@ -20,8 +23,8 @@ public class MainMenu extends JFrame {
 
         // 버튼 생성
         JLabel label = new JLabel("EZPC", SwingConstants.CENTER);
-        JButton pcBuildButton = new JButton("컴퓨터 구성");
-        JButton managementButton = new JButton("관리");
+        pcBuildButton = new JButton("컴퓨터 구성");
+        managementButton = new JButton("관리");
 
         label.setFont(new Font(font, Font.BOLD, 80));
         pcBuildButton.setFont(new Font(font, Font.BOLD, 30));
@@ -41,23 +44,15 @@ public class MainMenu extends JFrame {
         panel.add(managementButton);
         panel.add(Box.createVerticalStrut(20)); // 아래쪽 여백
 
-        // 버튼 클릭 이벤트 리스너 추가
-        pcBuildButton.addActionListener((ActionEvent e) -> {
-            // 컴퓨터 구성 화면으로 전환
-            new PCBuild(); // 새 창 열기
-            dispose(); // 현재 창 닫기
-        });
-
-        managementButton.addActionListener((ActionEvent e) -> {
-            // 컴퓨터 구성 화면으로 전환
-            new Management(); // 새 창 열기
-            dispose(); // 현재 창 닫기
-        });
-
         // 패널을 프레임에 추가
         add(panel);
+    }
 
-        // JFrame 표시
-        setVisible(true);
+    public JButton getPcBuildButton() {
+        return pcBuildButton;
+    }
+
+    public JButton getManagementButton() {
+        return managementButton;
     }
 }

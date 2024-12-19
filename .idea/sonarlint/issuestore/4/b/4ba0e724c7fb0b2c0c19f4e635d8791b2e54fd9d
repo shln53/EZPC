@@ -1,4 +1,5 @@
 
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¬ùé
-I
-java:S1068",Remove this unused "computer" private field.(Ê‡”8öĞèò½2
+€
+java:S1450	"^Remove the "totalPowerLabel" field and declare it as a local variable in the relevant methods.(š®¨„üÿÿÿÿ8ê§÷½2
+€
+java:S1450"^Remove the "totalPriceLabel" field and declare it as a local variable in the relevant methods.(àçÃ†ıÿÿÿÿ8ê§÷½2

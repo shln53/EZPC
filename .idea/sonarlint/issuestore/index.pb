@@ -1,36 +1,6 @@
 
 B
 ezpc/src/Main.java,3\7\37df0ef3b5d3ebe64be9ec14c232f9ae80b0af9e
-S
-#ezpc/src/component/PCComponent.java,a\f\afae34b7ee990e174a03df75f368f05188f29132
-K
-ezpc/src/component/CPU.java,b\9\b9a61301c933c148bdf41ef3eacc39802ab2b066
-Q
-!ezpc/src/component/CPUCooler.java,9\4\94f8c382dd2f9f5004b9e992626b30052b66db3a
-K
-ezpc/src/component/GPU.java,4\2\42acca099d557a4b8ac98aaaff9bcd16cf60ee6e
-N
-ezpc/src/component/Memory.java,7\7\77952c13373ffa1512953b6b5abb2ab13afcdcf6
-S
-#ezpc/src/component/Motherboard.java,1\0\101fbf7fe6267148f4269d043998e07d4f750085
-S
-#ezpc/src/component/PowerSupply.java,4\e\4ecbab1411b8752a881aa16ea1a43d0bafec2cf5
-O
-ezpc/src/component/Storage.java,5\5\5542390d97a2ceacd9c07b3c6c831c58db548745
-M
-ezpc/src/UI/ComponetList.java,a\8\a8689aa534262ff8184c41c24d2b379d8b6e0221
-M
-ezpc/src/ui/ComponetList.java,d\4\d4db0faabad27301be6237bd179cacb8249a1024
-I
-ezpc/src/ui/MainMenu.java,a\b\ab46241abc5c6c4db886681739eea57465d3a300
-S
-#ezpc/src/ui/GameSpecManagement.java,f\5\f53f2a40f01faa305764b994f486c505c47cd763
-K
-ezpc/src/ui/Management.java,3\9\39c1fb08aac8b7e3fe54af00f7c0d5131fe76c3d
-P
- ezpc/src/ui/PartsManagement.java,8\5\8576ece31011af84b2de561b4bd218cdd84f0cae
-H
-ezpc/src/ui/PCBuild.java,d\2\d2a6bb212e61627da65e8a5fa7935ad981f62611
 O
 ezpc/src/view/ComponetList.java,f\e\fe069e9ae6b4d11d228ea845180a70435e362c4e
 R
@@ -61,3 +31,15 @@ O
 ezpc/src/model/PowerSupply.java,2\8\289f4d231ae3c4419ac14bd0075944a0583af264
 K
 ezpc/src/model/Storage.java,7\4\74545db7b80a6585011b1f58527d37bc8b9654ad
+Y
+)ezpc/src/controll/MainMenuController.java,6\b\6bd4199a6d233eae3275379d25437586b4a7bf8d
+[
++ezpc/src/controller/MainMenuController.java,7\c\7ca3c82de94e9dd1cb369500bf195a1c7b6efa6f
+Q
+!ezpc/src/view/ManagementMenu.java,e\b\ebdebfb6a52009c82536dae39c9a4ecf4ae351e7
+a
+1ezpc/src/controller/ManagementMenuController.java,1\e\1e0d6538e1dd202112f2ea8707c37178db44151d
+Z
+*ezpc/src/controller/PCBuildController.java,3\2\32c15b1092efc3c7884884f190263da43188757c
+P
+ ezpc/src/view/ComponentList.java,e\a\ea4752c5e1c0ec448d81bc3459e6c0967d49485a

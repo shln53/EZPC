@@ -1,14 +1,6 @@
 package model;
 
 import java.io.Serializable;
-import model.CPU;
-import model.CPUCooler;
-import model.Motherboard;
-import model.Memory;
-import model.Storage;
-import model.GPU;
-import model.PowerSupply;
-
 
 public class Computer implements Serializable {
     private CPU cpu;
@@ -89,21 +81,4 @@ public class Computer implements Serializable {
         return powerSupply;
     }
 
-    // 컴퓨터의 사양을 출력하는 메서드
-    public String getSpecifications() {
-        StringBuilder specifications = new StringBuilder();
-
-        specifications.append("Computer Specifications:\n");
-
-        // 각 부품에 대해 null 체크하고 출력
-        specifications.append("CPU: ").append(cpu != null ? cpu.toString() : "Not Installed").append("\n");
-        specifications.append("CPU Cooler: ").append(cpuCooler != null ? cpuCooler.toString() : "Not Installed").append("\n");
-        specifications.append("Motherboard: ").append(motherboard != null ? motherboard.toString() : "Not Installed").append("\n");
-        specifications.append("Memory: ").append(memory != null ? memory.toString() : "Not Installed").append("\n");
-        specifications.append("Storage: ").append(storage != null ? storage.toString() : "Not Installed").append("\n");
-        specifications.append("GPU: ").append(gpu != null ? gpu.toString() : "Not Installed").append("\n");
-        specifications.append("Power Supply: ").append(powerSupply != null ? powerSupply.toString() : "Not Installed").append("\n");
-
-        return specifications.toString();
-    }
 }

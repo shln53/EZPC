@@ -1,3 +1,16 @@
 
-i
-java:S1192c"NDefine a constant instead of duplicating this literal "Not Installed" 7 times.(®İÁ„øÿÿÿÿ
+B
+java:S1948"%Make "cpu" transient or serializable.(ëàüş8¸Ûïò½2
+M
+java:S1948"+Make "cpuCooler" transient or serializable.(İ™•™şÿÿÿÿ8¸Ûïò½2
+J
+java:S1948"-Make "motherboard" transient or serializable.(À¿­ü8¸Ûïò½2
+E
+java:S1948	"(Make "memory" transient or serializable.(ìùï÷8¸Ûïò½2
+K
+java:S1948
+")Make "storage" transient or serializable.(µÛÖ†ÿÿÿÿÿ8¹Ûïò½2
+G
+java:S1948"%Make "gpu" transient or serializable.(¤ûà•şÿÿÿÿ8¹Ûïò½2
+J
+java:S1948"-Make "powerSupply" transient or serializable.(…ÜÆğ8¹Ûïò½2

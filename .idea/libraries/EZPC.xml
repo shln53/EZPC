@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="EZPC">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EZPC-main.zip2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/EZPC-main.zip3.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

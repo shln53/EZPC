@@ -1,16 +1,12 @@
 
 B
 ezpc/src/Main.java,3\7\37df0ef3b5d3ebe64be9ec14c232f9ae80b0af9e
-O
-ezpc/src/view/ComponetList.java,f\e\fe069e9ae6b4d11d228ea845180a70435e362c4e
 R
 "ezpc/src/view/PartsManagement.java,2\7\27e02d7e12e698077e127579989ca9325af7f5ce
 K
 ezpc/src/view/MainMenu.java,a\6\a6f82aaec84dcd54d1f7f432e3e62548b27fc13a
 U
 %ezpc/src/view/GameSpecManagement.java,e\7\e7bac0fc57a7a53f23b0d3a8f4ce39a43d152ccd
-M
-ezpc/src/view/Management.java,d\8\d88130e7e7b4c447f01c2c0ed52de0c78e690dce
 J
 ezpc/src/view/PCBuild.java,4\b\4ba0e724c7fb0b2c0c19f4e635d8791b2e54fd9d
 L
@@ -31,8 +27,6 @@ O
 ezpc/src/model/PowerSupply.java,2\8\289f4d231ae3c4419ac14bd0075944a0583af264
 K
 ezpc/src/model/Storage.java,7\4\74545db7b80a6585011b1f58527d37bc8b9654ad
-Y
-)ezpc/src/controll/MainMenuController.java,6\b\6bd4199a6d233eae3275379d25437586b4a7bf8d
 [
 +ezpc/src/controller/MainMenuController.java,7\c\7ca3c82de94e9dd1cb369500bf195a1c7b6efa6f
 Q

@@ -41,6 +41,9 @@ public class PCBuild extends JFrame {
 
 
     public PCBuild() {
+        // 통합 폰트
+        String font = "맑은 고딕";
+
         setTitle("PC Build");
         setSize(1280, 720);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -76,6 +79,9 @@ public class PCBuild extends JFrame {
 
         // 저장, 불러오기, 뒤로 버튼 패널 추가
         addButtonPanel();
+
+        // 폰트 설정: "맑은 고딕"
+        setCustomFont();
     }
 
     private void initializeLabels() {
@@ -122,6 +128,44 @@ public class PCBuild extends JFrame {
         loadButton = new JButton("불러오기");
         backButton = new JButton("뒤로");
     }
+    private void setCustomFont() {
+        Font font = new Font("Malgun Gothic", Font.BOLD, 14);
+
+        // 모든 라벨에 폰트 설정
+        cpuName.setFont(font);
+        cpuManufacturer.setFont(font);
+        cpuPrice.setFont(font);
+        cpuCoolerName.setFont(font);
+        cpuCoolerManufacturer.setFont(font);
+        cpuCoolerPrice.setFont(font);
+        motherBoardName.setFont(font);
+        motherBoardManufacturer.setFont(font);
+        motherBoardPrice.setFont(font);
+        memoryName.setFont(font);
+        memoryManufacturer.setFont(font);
+        memoryPrice.setFont(font);
+        storageName.setFont(font);
+        storageManufacturer.setFont(font);
+        storagePrice.setFont(font);
+        gpuName.setFont(font);
+        gpuManufacturer.setFont(font);
+        gpuPrice.setFont(font);
+        powerSupplyName.setFont(font);
+        powerSupplyManufacturer.setFont(font);
+        powerSupplyPrice.setFont(font);
+
+        // 모든 버튼에 폰트 설정
+        cpuSelectButton.setFont(font);
+        cpuCoolerSelectButton.setFont(font);
+        motherBoardSelectButton.setFont(font);
+        memorySelectButton.setFont(font);
+        storageSelectButton.setFont(font);
+        gpuSelectButton.setFont(font);
+        powerSupplySelectButton.setFont(font);
+        saveButton.setFont(font);
+        loadButton.setFont(font);
+        backButton.setFont(font);
+    }
     private void addHeaderRow() {
         JPanel headerPanel = new JPanel(new GridLayout(1, 5, 10, 0)); // 수평 간격 추가
 
@@ -156,8 +200,8 @@ public class PCBuild extends JFrame {
         totalPriceLabel = new JLabel("Total Price: $2120", SwingConstants.CENTER); //총액 계산 미구현
         totalPowerLabel = new JLabel("Total Power: 750W", SwingConstants.CENTER);  //파워 계산 미구현
 
-        totalPriceLabel.setFont(new Font("Arial", Font.BOLD, 18));
-        totalPowerLabel.setFont(new Font("Arial", Font.BOLD, 18));
+        totalPriceLabel.setFont(new Font("Malgun Gothic", Font.BOLD, 18));
+        totalPowerLabel.setFont(new Font("Malgun Gothic", Font.BOLD, 18));
 
         // 라벨 추가
         summaryPanel.add(totalPriceLabel);

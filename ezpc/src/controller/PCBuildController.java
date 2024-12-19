@@ -88,11 +88,17 @@ public class PCBuildController {
     }
     // 컴퓨터 부품들의 속성을 가져와서 라벨에 업데이트
     private void updateComponentLabels() {
+        // 총액과 총전력량 초기화
+        double totalPrice = 0.0;
+        int totalPower = 0;
+
         // CPU 정보 업데이트
         if (computer.getCPU() != null) {
             view.setCpuName(computer.getCPU().getName());
             view.setCpuManufacturer(computer.getCPU().getManufacturer());
             view.setCpuPrice(computer.getCPU().getPrice());
+            totalPrice += computer.getCPU().getPrice();
+            totalPower += computer.getCPU().getPower();
         } else {
             view.setCpuName("");
             view.setCpuManufacturer("");
@@ -104,6 +110,8 @@ public class PCBuildController {
             view.setCpuCoolerName(computer.getCPUCooler().getName());
             view.setCpuCoolerManufacturer(computer.getCPUCooler().getManufacturer());
             view.setCpuCoolerPrice(computer.getCPUCooler().getPrice());
+            totalPrice += computer.getCPUCooler().getPrice();
+            totalPower += computer.getCPUCooler().getPower();
         } else {
             view.setCpuCoolerName("");
             view.setCpuCoolerManufacturer("");
@@ -115,6 +123,8 @@ public class PCBuildController {
             view.setMotherBoardName(computer.getMotherboard().getName());
             view.setMotherBoardManufacturer(computer.getMotherboard().getManufacturer());
             view.setMotherBoardPrice(computer.getMotherboard().getPrice());
+            totalPrice += computer.getMotherboard().getPrice();
+            totalPower += computer.getMotherboard().getPower();
         } else {
             view.setMotherBoardName("");
             view.setMotherBoardManufacturer("");
@@ -126,6 +136,8 @@ public class PCBuildController {
             view.setMemoryName(computer.getMemory().getName());
             view.setMemoryManufacturer(computer.getMemory().getManufacturer());
             view.setMemoryPrice(computer.getMemory().getPrice());
+            totalPrice += computer.getMemory().getPrice();
+            totalPower += computer.getMemory().getPower();
         } else {
             view.setMemoryName("");
             view.setMemoryManufacturer("");
@@ -137,6 +149,8 @@ public class PCBuildController {
             view.setStorageName(computer.getStorage().getName());
             view.setStorageManufacturer(computer.getStorage().getManufacturer());
             view.setStoragePrice(computer.getStorage().getPrice());
+            totalPrice += computer.getStorage().getPrice();
+            totalPower += computer.getStorage().getPower();
         } else {
             view.setStorageName("");
             view.setStorageManufacturer("");
@@ -148,6 +162,8 @@ public class PCBuildController {
             view.setGpuName(computer.getGPU().getName());
             view.setGpuManufacturer(computer.getGPU().getManufacturer());
             view.setGpuPrice(computer.getGPU().getPrice());
+            totalPrice += computer.getGPU().getPrice();
+            totalPower += computer.getGPU().getPower();
         } else {
             view.setGpuName("");
             view.setGpuManufacturer("");
@@ -159,10 +175,16 @@ public class PCBuildController {
             view.setPowerSupplyName(computer.getPowerSupply().getName());
             view.setPowerSupplyManufacturer(computer.getPowerSupply().getManufacturer());
             view.setPowerSupplyPrice(computer.getPowerSupply().getPrice());
+            totalPrice += computer.getPowerSupply().getPrice();
+            totalPower += computer.getPowerSupply().getPower();
         } else {
             view.setPowerSupplyName("");
             view.setPowerSupplyManufacturer("");
             view.setPowerSupplyPrice(0.0); // 빈 가격 처리
         }
+
+        // 총액과 총전력량 업데이트
+        view.setTotalPriceLabel(totalPrice);
+        view.setTotalPowerLabel("Total Power: " + totalPower + "W");
     }
 }

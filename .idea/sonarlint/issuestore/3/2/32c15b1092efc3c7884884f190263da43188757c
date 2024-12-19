@@ -1,30 +1,23 @@
 
 E
-java:S1604"(Make this anonymous inner class a lambda(öø¦½8Å¸Íû½2
+java:S1604"(Make this anonymous inner class a lambda(öø¦½8´ú½2
 J
-java:S1604"(Make this anonymous inner class a lambda(÷‹‰ıÿÿÿÿ8Å¸Íû½2
+java:S1604"(Make this anonymous inner class a lambda(÷‹‰ıÿÿÿÿ8´ú½2
 E
-java:S1604!"(Make this anonymous inner class a lambda(£ è8Å¸Íû½2
+java:S1604!"(Make this anonymous inner class a lambda(£ è8´ú½2
 E
-java:S1604'"(Make this anonymous inner class a lambda(’ùÑõ8Æ¸Íû½2
+java:S1604'"(Make this anonymous inner class a lambda(’ùÑõ8´ú½2
 J
-java:S1604-"(Make this anonymous inner class a lambda(‚Éæÿÿÿÿÿ8Æ¸Íû½2
+java:S1604-"(Make this anonymous inner class a lambda(‚Éæÿÿÿÿÿ8´ú½2
 J
-java:S16043"(Make this anonymous inner class a lambda(è¢ì€ûÿÿÿÿ8Æ¸Íû½2
+java:S16043"(Make this anonymous inner class a lambda(è¢ì€ûÿÿÿÿ8´ú½2
 E
-java:S16049"(Make this anonymous inner class a lambda(¡£û8Æ¸Íû½2
+java:S16049"(Make this anonymous inner class a lambda(¡£û8´ú½2
 E
-java:S1604?"(Make this anonymous inner class a lambda(¿ÉÂÊ8Æ¸Íû½2
+java:S1604?"(Make this anonymous inner class a lambda(¿ÉÂÊ8µú½2
 J
-java:S1604F"(Make this anonymous inner class a lambda(şšåŠøÿÿÿÿ8Æ¸Íû½2
+java:S1604F"(Make this anonymous inner class a lambda(şšåŠøÿÿÿÿ8µú½2
 E
-java:S1604M"(Make this anonymous inner class a lambda(Ûå¹–8Æ¸Íû½2
-G	java:S106C"+Replace this use of System.out by a logger.(ÁÎ«ä8×¸Íû½2
-G	java:S106J"+Replace this use of System.out by a logger.(¿ˆö­8×¸Íû½2
-X	java:S125e"<This block of commented-out lines of code should be removed.(şÉÎö8îôŠü½2
-X	java:S125r"<This block of commented-out lines of code should be removed.(æ¸©ö8ßØŠü½2
-X	java:S125"<This block of commented-out lines of code should be removed.(Í¸÷ğ8àØŠü½2
-^	java:S125Œ"<This block of commented-out lines of code should be removed.(–Âÿßıÿÿÿÿ8áØŠü½2
-Y	java:S125™"<This block of commented-out lines of code should be removed.(çÆŸœ8õº‹ü½2
-^	java:S125¦"<This block of commented-out lines of code should be removed.(Òı¸ªıÿÿÿÿ8öº‹ü½2
-Y	java:S125³"<This block of commented-out lines of code should be removed.(ÛµÎ¾8½¢¥ü½2
+java:S1604M"(Make this anonymous inner class a lambda(Ûå¹–8µú½2
+G	java:S106C"+Replace this use of System.out by a logger.(ÁÎ«ä8Åú½2
+G	java:S106J"+Replace this use of System.out by a logger.(¿ˆö­8Åú½2

@@ -45,3 +45,11 @@ M
 ezpc/src/PartsManagement.java,1\5\15a92ad6f652434b9ece79a041ff5f73fa248549
 I
 ezpc/src/Motherboard.java,d\9\d9436da6a3fec0d382aeb9198e6b3c9e2c81a193
+K
+ezpc/src/model/Storage.java,7\4\74545db7b80a6585011b1f58527d37bc8b9654ad
+O
+ezpc/src/model/PowerSupply.java,2\8\289f4d231ae3c4419ac14bd0075944a0583af264
+J
+ezpc/src/model/Memory.java,8\a\8ad492f9483c92c7ee53964bfc037da840b52754
+B
+ezpc/src/Main.java,3\7\37df0ef3b5d3ebe64be9ec14c232f9ae80b0af9e

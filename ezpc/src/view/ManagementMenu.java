@@ -62,4 +62,3 @@ public class ManagementMenu extends JFrame {
         return backButton;
     }
 }
-

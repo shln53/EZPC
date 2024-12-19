@@ -18,8 +18,8 @@ public class ManagementMenuController {
         view.getPartsManagementButton().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // 부품 관리 화면으로 전환
-                new PartsManagement(); // 새 창 열기
+                PartsManagement partsManagement = new PartsManagement();
+                new PartsManagementController(partsManagement);
                 view.dispose(); // 현재 창 닫기
             }
         });

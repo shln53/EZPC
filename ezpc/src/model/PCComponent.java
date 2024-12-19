@@ -1,6 +1,8 @@
 package model;
 
-abstract class PCComponent {
+import java.io.Serializable;
+
+abstract class PCComponent implements Serializable {
     private String name;
     private String manufacturer;
     private double price;

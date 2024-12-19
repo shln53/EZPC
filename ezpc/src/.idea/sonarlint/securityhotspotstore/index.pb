@@ -1,7 +1,23 @@
 
-F
-computer/Computer.java,a\3\a3931ec170358b337b1b00813cb9b83197dac2da
-?
-ui/PCBuild.java,4\6\46c8c997b196bbda7517cde86ef1566f2d56fde5
 9
 	Main.java,6\9\69cdb079609ed3ce1e356d44cff508330a5787c4
+I
+view/PartsManagement.java,6\4\641f632dd54df335e2de7714a5044478f5e59fbc
+>
+model/CPU.java,f\e\fe34fc7eae6e096dc02cc562e0b5268134b8ee53
+C
+model/Computer.java,e\b\ebc3b6ead3b20993a71073fd57d21adb9dc7a341
+D
+model/CPUCooler.java,8\b\8b4029103c41323ad27b9229d745331eec83f523
+>
+model/GPU.java,c\e\ce1e14e64c466fa5e2bca20f0d3077118a08220f
+A
+model/Memory.java,e\5\e5b179dab615347b61b4164f55d920f9c6610d36
+F
+model/Motherboard.java,b\a\ba963a575e32de26fb28659999773916b13a5d55
+F
+model/PCComponent.java,7\0\709af73c0433765db02ad8273d8ab18382504a42
+F
+model/PowerSupply.java,4\8\482a20e44f74f5372475c6c8024b6120f1832b83
+B
+model/Storage.java,8\2\82cd4bbe8baf572efc97b38e97d595c811d9ed07
